@@ -1,0 +1,18 @@
+{
+  "name": "api_tests",
+  "version": "1.0.0",
+  "description": "Sample node project to demonstrate API testing with mocha and node-fetch",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "author": "Bharath Kumar S <9003045843> <bharathkumarkarthick@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "form-data": "^3.0.0",
+    "mocha": "^8.0.1",
+    "node-fetch": "^2.6.0"
+  }
+}
