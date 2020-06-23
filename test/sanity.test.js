@@ -7,7 +7,7 @@ describe('Sample api tests', () => {
     it('GET request', async () => {
         let res = await fetch('https://api.github.com/users/github', { method: 'GET' });
         let response = await res.json();
-        console.log(response);
+        // console.log(response);
         expect(response).to.haveOwnProperty('login')
         expect(response.login).to.contain('github');
     })
@@ -18,7 +18,7 @@ describe('Sample api tests', () => {
         form.append('a', 1);
         let res = await fetch('https://httpbin.org/post', { method: 'POST', body: form })
         let response = await res.json();
-        console.log(response);
+        // console.log(response);
     })
-    
+
 })

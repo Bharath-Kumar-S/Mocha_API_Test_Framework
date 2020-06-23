@@ -4,7 +4,7 @@
   "description": "Sample node project to demonstrate API testing with mocha and node-fetch",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*.js"
+    "test": "mocha test/*.js -t=5000"
   },
   "author": "Bharath Kumar S <9003045843> <bharathkumarkarthick@gmail.com>",
   "license": "ISC",

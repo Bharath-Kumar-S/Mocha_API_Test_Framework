@@ -10,3 +10,4 @@ Clone the project and execute `npm i` in order to download the dependencies
 
 Run `npm run test` to execute tests. This will run the spec files in `test` folder
 
+<image src="test/Test_image.png">
